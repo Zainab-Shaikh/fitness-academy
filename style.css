@@ -290,6 +290,13 @@ input::placeholder {
   }
 }
 @media (max-width: 900px) {
+  .home img {
+    width: 4rem;
+    height: 4rem;
+  }
+  .menu-button {
+    margin-top: 1rem;
+  }
   body {
     padding-left: 4rem;
     padding-right: 4rem;
@@ -324,6 +331,26 @@ input::placeholder {
   body {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+  .menu-button {
+    margin-top: 0.5rem;
+  }
+  span,
+  span::after,
+  span::before {
+    width: 1.7rem;
+    height: 0.2rem;
+  }
+  span::before,
+  span::after {
+    top: -16px;
+  }
+  span::after {
+    top: 1px;
+  }
+  .home img {
+    width: 3rem;
+    height: 3rem;
   }
   .upper-text,
   .lower-text {
